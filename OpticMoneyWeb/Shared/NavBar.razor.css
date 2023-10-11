@@ -6,7 +6,7 @@
     background: linear-gradient(272deg,#d5aa00 20%, #ffec00 30%, #987100 50%, #ffdd00 60%, #987100 75%);
     background: -webkit-linear-gradient(247deg,#d5aa00 20%, #ffd400 30%, #b98900 50%, #ffd400 62%, #987100 75%);
     background: -moz-linear-gradient(272deg,#d5aa00 20%, #ffec00 30%, #987100 50%, #ffdd00 60%, #987100 75%);
-    justify-content: center;
+    justify-content: start;
     height: 3.5rem;
     display: flex;
     align-items: center;
@@ -25,7 +25,7 @@
 }
 
 .nav-option {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     color: black;
     text-decoration: none;
 }
@@ -33,4 +33,18 @@
 .nav-option:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+.nav-opt-cont {
+    display: flex;
+    width: 34rem;
+    justify-content: center;
+    gap: 3.5rem;
+    align-content: center;
+        margin-left: 8rem;
+}
+
+.nav-opt-btn-cont {
+    min-width: fit-content;
+
 }
