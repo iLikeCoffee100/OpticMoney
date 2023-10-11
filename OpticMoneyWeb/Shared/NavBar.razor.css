@@ -1,0 +1,13 @@
+﻿body {
+}
+
+.top-row {
+    background: #d5aa00;
+    background: linear-gradient(272deg,#d5aa00 20%, #ffec00 30%, #987100 50%, #ffdd00 60%, #987100 75%);
+    background: -webkit-linear-gradient(247deg,#d5aa00 20%, #ffd400 30%, #b98900 50%, #ffd400 62%, #987100 75%);
+    background: -moz-linear-gradient(272deg,#d5aa00 20%, #ffec00 30%, #987100 50%, #ffdd00 60%, #987100 75%);
+    justify-content: center;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
