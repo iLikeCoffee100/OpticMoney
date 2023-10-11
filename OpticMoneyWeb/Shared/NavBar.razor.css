@@ -11,3 +11,26 @@
     display: flex;
     align-items: center;
 }
+
+.navbar-title {
+    font-size: 2.8rem;
+    font-family: 'allura', cursive;
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.navbar-title:hover {
+    cursor: default;
+}
+
+.nav-option {
+    font-size: 1.7rem;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-option:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
